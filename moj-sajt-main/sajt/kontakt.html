@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kontakt - OKK Takovo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
@@ -20,7 +21,7 @@
       </div>
     </div>
   </nav>
-
+<main>
   <div class="container">
     <h1 class="mb-4">Kontakt</h1>
 
@@ -30,5 +31,34 @@
       <li class="list-group-item">Predsednik kluba: Nenad Milenković - 063/555-0000</li>
     </ul>
   </div>
+   <div class="container">
+    <h1 class="mb-4 text-center">Kontaktirajte nas</h1>
+    <form action="#" method="post" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="ime" class="form-label">Ime i prezime</label>
+        <input type="text" class="form-control" id="ime" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email adresa</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="poruka" class="form-label">Poruka</label>
+        <textarea class="form-control" id="poruka" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Pošalji</button>
+    </form>
+  </div>
+  </main>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 OKK Takovo. Sva prava zadržana.</p>
+      <p class="mb-0">
+        Pratite nas na 
+        <a href="https://instagram.com/okk.takovo" class="text-white text-decoration-underline" target="_blank">Instagramu</a>
+      </p>
+    </div>
+  </footer>
+
 </body>
 </html>
